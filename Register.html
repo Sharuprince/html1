@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Register.css">
+</head>
+<body>
+    <section id="main">
+        <article>
+            <form action="">
+            <fieldset>
+                <legend>Registration Details</legend>
+                <div class="form-group1">
+                    <label for="unv" class="label" id="uni">University : </label>
+                    <input type="text">
+                </div>
+                <div class="form-group2">
+                    <label for="institute" class="label" id="ins">Institute : </label>
+                    <input type="text">
+                </div>
+                <div class="form-group3">
+                    <label for="Branch" class="label" id="branch">Branch :</label>
+                    <input list="branch">
+                    <datalist id="branch">
+                        <option value="select">select</option>
+                        <option value="jsp">jsp</option>
+                        <option value="qsp">qsp</option>
+                    </datalist>
+                </div>
+                <div class="form-group4">
+                    <label for="degree" class="label" id="degree">Degree :</label>
+                    <input list="degree">
+                    <datalist id="degree">
+                        <option value="BE">BE</option>
+                         <option value="BEtech">BEtech</option>
+                    </datalist>
+                    <span>
+                    <input type="checkbox" name="pursuing" value="pursuing" > Pursuing
+                    <input type="checkbox" name="Completed" value="Completed" > Completed
+                    </span>
+                </div>
+                <div class="form-group5">
+                     <label for="avg" class="label" id="avg">Avarage CPI :</label>
+                     <select name="avgerage" size="2" multiple class="sel1">
+                        <option value="">  10 </option>
+                        <option value="9">  9 </option>
+                        <option value="8"> 8</option>
+                     </select>
+
+                    <label for="upto" >Upto</label>
+                    <select name="avgerage" size="2" multiple class="sel2">
+                        <option value="">10</option>
+                        <option value="9">9</option>
+                        <option value="8">8 </option>
+                    </select> Th Semester
+                </div>
+
+                <div class="form-group6">
+                    <label for="Experience" class="label" id="exp">Experience :</label>
+                    <select name="avgerage" size="2" multiple class="sel3">
+                        <option value="">10</option>
+                        <option value="9">9</option>
+                        <option value="8">8 </option>
+                    </select> Years 
+                </div>
+
+                <div class="form-group7" >
+                    <label for="web" id="webs">Your Website Or Blog :</label>
+                    <input type="text" value="http://">
+                </div>
+            </fieldset>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
